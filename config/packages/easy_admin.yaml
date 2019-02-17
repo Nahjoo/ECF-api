@@ -1,0 +1,15 @@
+easy_admin:
+   entities:
+        Promotion: 
+            class: App\Entity\Promotion
+            form:
+                fields:
+                    - {property: 'name'}
+                    - {property: 'DateStart'}
+                    - {property: 'DateEnd'}
+                    - {property: 'students'}
+
+        Student: 
+            class: App\Entity\Student
+       
+      
